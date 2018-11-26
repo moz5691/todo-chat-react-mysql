@@ -1,0 +1,27 @@
+{
+  "name": "todolist-react-mongdodb",
+  "version": "1.0.0",
+  "description": "todolist with chatkit + mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "backend": "nodemon server.js",
+    "frontend": "npm run start --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "author": "Chan Ho Ahn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.11",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.41.2"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4"
+  }
+}

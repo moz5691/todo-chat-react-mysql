@@ -1,0 +1,48 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.5;
+  color: #777;
+  padding: 60px;
+}
+
+.text-completed {
+  color: grey;
+  font-size: 30px;
+}
+
+.text-uncompleted {
+  color: rgb(80, 76, 76);
+  font-size: 30px;
+}
+
+.title-year {
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: left;
+}
+.title-day {
+  padding: 10px;
+  margin-top: 9px;
+
+  font-size: 90px;
+  /* display: block; */
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-align: right;
+}
+
+.title-month-date {
+  padding: 0px;
+  font-size: 40px;
+  margin-left: 15px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-align: left;
+}
+
+.input-field {
+}
