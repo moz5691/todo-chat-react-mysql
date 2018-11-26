@@ -3,7 +3,7 @@ This app is ToList with multiple features.
 1. Todo shows Date on the top. 'moment.js'
 2. Open up another client screen. Adding todo is synced up on all client screens.
 3. Click on circle is marked as done and changes to crossed circle. Click on the crossed circle to delete it.
-4. Todo text and complete is stored in MongoDB.
+4. Todo text and complete is stored in MySQL.
 
 ![Upload Photo](etc/todolist.png)
 
