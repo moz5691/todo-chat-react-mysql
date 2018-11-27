@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const keys = require('./config/keys');
 const path = require('path');
 const db = require('./models');
 
